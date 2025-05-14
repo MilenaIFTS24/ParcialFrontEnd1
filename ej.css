@@ -1,0 +1,22 @@
+table {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5px;    
+}
+
+th, td {
+    border: 1px black solid;
+}
+
+th {
+    background-color: darkslategray;
+    color: white;
+}
+
+input, select { 
+    float: left;
+}
+
+#alerta {
+    color: red;
+}

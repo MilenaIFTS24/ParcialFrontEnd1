@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Automotores</title>
+    <link rel="stylesheet" href="ej.css">
+</head>
+<body>
+    <h1>RGB Automotores</h1>
+    <table id="tabla">
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Año</th>
+            <th>Color</th>
+        </tr>
+    </table>
+    <hr>
+    <form action="" id="formAuto">
+        <label for="marca">Marca</label><br>
+        <input type="text" id="marca"><br><br>
+        <label for="modelo">Modelo</label><br>
+        <input type="text" id="modelo"><br><br>
+        <label for="año">Año</label><br>
+        <input type="number" id="año" min="1886"><br><br>
+        <label for="color">Color</label><br>
+        <select name="color" id="color">
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+        </select><br><br>        
+    </form>
+    <button id="agregarAuto">Agregar</button>
+    <h2 id="alerta"></h2>
+    <script src="ej.js"></script>
+</body>
+</html>
